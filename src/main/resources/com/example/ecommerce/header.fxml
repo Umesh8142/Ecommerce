@@ -10,7 +10,7 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ecommerce.HeaderController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#192cfc" height="67.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
-      <Label fx:id="email" layoutX="360.0" layoutY="21.0" />
+      <Label fx:id="email" layoutX="360.0" layoutY="21.0" onMouseClicked="#logoutAppear" />
       <Button fx:id="logoutButton" layoutX="481.0" layoutY="21.0" mnemonicParsing="false" onMouseClicked="#logout" opacity="0" text="Logout">
          <font>
             <Font name="System Bold" size="12.0" />

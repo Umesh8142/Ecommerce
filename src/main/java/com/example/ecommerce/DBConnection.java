@@ -9,7 +9,7 @@ public class DBConnection {
     String password ="umesh12493@#";
 
     DBConnection() throws SQLException {
-con= DriverManager.getConnection(sqlurl,userName,password);
+ con= DriverManager.getConnection(sqlurl,userName,password);
 if(con!=null){
     System.out.println("connected");
 }
